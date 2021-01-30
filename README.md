@@ -40,12 +40,13 @@
 
 ## Sobre
 
-**Olá, devs! Estaremos passando esse desafio para ver como vocês pensam e como se comportam perante a problemas complexo. Daremos 2 dias para resolução do problema. :heart:**
+**Olá, devs! Estaremos passando esse desafio para ver como vocês pensam e como se comportam perante a problemas complexos. Daremos 5 dias para resolução do problema. :heart:**
 > Na **Plific**, focamos em trabalhar com as tecnologias mais atuais do mercado, aqui é usado:
 > - Typescript
 > - Node
 > - React
 > - React Native
+> - PostgreSQL
 > - Docker
 > - Testes Automatizados
 > - Amazon Web Services (AWS)
@@ -56,9 +57,11 @@
 
 ## :octocat: O Projeto
 
+Você deverá criar uma aplicação do tipo CRUD. Deverá utilizar o PostgreSQL, Typeorm, testes automatizados para sua aplicação Back End e o React com as melhores práticas. Utilize boas práticas de programação e explore se possivel dos métodos de Clean Code. No projeto estão todas as dependências necessárias para desenvolvê-lo, você encontrará exemplos para estruturar sua aplicação e algumas instruções. 
+
 <h3 align="center">Aplicação Exemplo</h3>
 <p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=15Trzco3_z_oAXtjYYr9rUewPHbmrNLMi" alt="plific-desafio-demo" />
+    <img src="https://arturkilldragon.files.wordpress.com/2019/08/simple-crud-app-screenshot-frontend.png" alt="plific-desafio-demo" />
 </p>
 
 ---
@@ -69,12 +72,20 @@ A solução deve ser desenvolvida com as seguintes tecnologias:
 
 > - [Typescript](https://www.typescriptlang.org/)
 > - [NodeJS](https://nodejs.org)
+> - [PostgreSQL](https://www.postgresql.org/)
 > - [ReactJS](https://pt-br.reactjs.org/)
-> - [VS Code](https://code.visualstudio.com/)
+> - [VS Code](https://code.visualstudio.com/) (Opcional)
 
 ## :information_source: Como utilizar
 
 Para clonar e executar este desafio, você precisará do [Git](https://git-scm.com), [Node.js v12.18][nodejs] acima + [Yarn v1.22][yarn] acima, instalados em sua máquina, copie a url do [plific-desafio](https://github.com/plific/plific-desafio) e clone na sua máquina.
+
+O banco deve ser criado com as seguintes credênciais: 
+> - **host=** localhost
+> - **port=** 5432
+> - **username=** postgres
+> - **password=** postgres
+> - **database=** plific_desafio_database (Obrigatório)
 
 No seu terminal:
 
@@ -91,8 +102,11 @@ $ cd backend
 # Instale as dependências do backend
 $ yarn
 
-# Execute a aplicação
-$ yarn start
+# Execute os testes para verificar se o projeto está ok em sua máquina
+$ yarn test
+
+# Execute a aplicação logo após
+$ yarn dev:server
 
 # Entre na pasta do frontend da aplicação
 $ cd frontend
