@@ -89,6 +89,8 @@ O banco deve ser criado com as seguintes credênciais:
 > - **password=** postgres
 > - **database=** plific_desafio_database (Obrigatório)
 
+> Leia o [README.md](https://github.com/plific/plific-desafio/blob/main/backend/README.md) dentro da pasta **backend**!
+
 No seu terminal:
 
 ```bash
