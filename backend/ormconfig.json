@@ -5,6 +5,7 @@
   "username": "postgres",
   "password": "postgres",
   "database": "plific_desafio_database",
+  "entities": ["./src/models/*.ts"],
   "migrations": [
     "./src/database/migrations/*.ts"
   ],
