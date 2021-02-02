@@ -59,6 +59,8 @@
 
 Você deverá criar uma aplicação do tipo CRUD. Deverá utilizar o PostgreSQL, Typeorm, testes automatizados para sua aplicação Back End e o React com as melhores práticas. Utilize boas práticas de programação e explore se possivel dos métodos de Clean Code. No projeto estão todas as dependências necessárias para desenvolvê-lo, você encontrará exemplos para estruturar sua aplicação e algumas instruções. 
 
+> - Crie uma nova Branch com o código da solução e o nome da branch sendo **feat-** + o seu nome.
+
 <h3 align="center">Aplicação Exemplo</h3>
 <p align="center">
     <img src="https://arturkilldragon.files.wordpress.com/2019/08/simple-crud-app-screenshot-frontend.png" alt="plific-desafio-demo" />
@@ -86,6 +88,8 @@ O banco deve ser criado com as seguintes credênciais:
 > - **username=** postgres
 > - **password=** postgres
 > - **database=** plific_desafio_database (Obrigatório)
+
+> Leia o [README.md](https://github.com/plific/plific-desafio/blob/main/backend/README.md) dentro da pasta **backend**!
 
 No seu terminal:
 
